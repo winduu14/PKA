@@ -33,9 +33,65 @@
             <hr class="my-4">
             <p>Gunakan menu navigasi untuk berpindah antara halaman Home dan Arsip Dokumentasi.</p>
         </div>
+
+        <!-- Keunggulan Sistem -->
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card border rounded-lg">
+                    <div class="card-body">
+                        <i class="fas fa-archive fa-3x mb-3 text-primary"></i>
+                        <h5 class="card-title">Arsip Terorganisir</h5>
+                        <p class="card-text">Semua dokumen karya akhir tersimpan dengan rapi dan mudah diakses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card border rounded-lg">
+                    <div class="card-body">
+                        <i class="fas fa-search fa-3x mb-3 text-success"></i>
+                        <h5 class="card-title">Pencarian Cepat</h5>
+                        <p class="card-text">Temukan dokumen dengan cepat menggunakan fitur pencarian canggih.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card border rounded-lg">
+                    <div class="card-body">
+                        <i class="fas fa-share-alt fa-3x mb-3 text-info"></i>
+                        <h5 class="card-title">Kolaborasi Mudah</h5>
+                        <p class="card-text">Bagikan dan kolaborasikan dokumen dengan rekan kerja Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Teknologi yang Digunakan -->
+        <div class="row justify-content-center">
+            <div class="col-md-8 mb-4">
+                <div class="card border rounded-lg">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Teknologi yang Digunakan</h5>
+                        <div class="d-flex justify-content-around align-items-center mt-3">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5" class="img-fluid" style="max-width: 50px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3" class="img-fluid" style="max-width: 50px;">
+                            <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="Bootstrap" class="img-fluid" style="max-width: 50px;">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" class="img-fluid" style="max-width: 50px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Placeholder untuk footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function(){
+            $("#footer-placeholder").load("footer.html");
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
