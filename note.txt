@@ -1,0 +1,1 @@
+    const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTbRgnENeis3iPHAoYCiOr-UT-8lZ2Vu_VGz91SEYM_aFQVP3ctIxTDzKoQE1MzcAhGCG_iT1mvhhfz/pub?output=csv'; // Ganti dengan URL file CSV Anda

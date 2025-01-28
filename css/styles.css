@@ -1,0 +1,47 @@
+body {
+    padding-top: 56px; /* Sesuaikan dengan tinggi navbar */
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    padding-left: 25px;
+}
+
+.navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover::before {
+    background-color: #007bff;
+}
+
+.jumbotron {
+    margin-top: 80px; /* Beri ruang lebih jika diperlukan */
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.badge {
+    font-size: 0.9em;
+    padding: 0.5em;
+}
